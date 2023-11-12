@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom,
+    #87ceeb,
+    #7ac5d8,
+    #6cbac4,
+    #5eaeb0,
+    #4fa29d
+  );
+  background-size: 100% 100%;
+}
+
+.userList-container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-height: 1000px;
+}
+
+.cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
